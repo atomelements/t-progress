@@ -2,7 +2,7 @@
 
 <link rel="import" href="../paper-styles/paper-styles.html">
 <link rel="import" href="../iron-range-behavior/iron-range-behavior.html">
-<link rel="import" href="../iron-flex-layout/classes/iron-flex-layout.html">
+<link rel="import" href="../iron-flex-layout/iron-flex-layout-classes.html" />
 
 <!--
 The progress bars are for situations where the percentage completed can be
@@ -42,7 +42,7 @@ To change the progress bar background color:
 -->
 
 <dom-module id="t-progress">
-  <style>
+  <style include="iron-flex">
     :host {
       display: inline-block;
       width: 200px;
